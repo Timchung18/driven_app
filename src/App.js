@@ -1,12 +1,14 @@
 import './App.css';
-import LaunchPage from './components/HomePage';
-import TableDisplay from './components/TableDisplay';
+import AccountCreation from './components/CreateAccount/InputPhoneNumber';
+import InputEmailPass from './components/CreateAccount/InputEmailPass';
+import EnterVerifCode from './components/EnterVerifCode';
 
 function App() {
   return (
-    <div className="App">
-      <LaunchPage />
-      <TableDisplay />
+    <div className=" w-[375px] min-h-screen p-4 mx-auto">
+      <AccountCreation/>
+      <InputEmailPass/>
+      <EnterVerifCode />
     </div>
   );
 }
