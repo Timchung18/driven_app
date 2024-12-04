@@ -2,6 +2,7 @@ import './App.css';
 import AccountCreation from './components/CreateAccount/InputPhoneNumber';
 import InputEmailPass from './components/CreateAccount/InputEmailPass';
 import EnterVerifCode from './components/EnterVerifCode';
+import LoginSuccessPage from './components/LoginSuccessPage';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <AccountCreation/>
       <InputEmailPass/>
       <EnterVerifCode />
+      <LoginSuccessPage />
     </div>
   );
 }
